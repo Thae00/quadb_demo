@@ -104,7 +104,7 @@ class _DashboardPageState extends State<DashboardPage> {
                           child: GridView.count(
                             primary: false,
                             crossAxisCount: 3,
-                            childAspectRatio: 0.62,
+                            childAspectRatio: 0.6,
                             children:
                                 List.generate(allData.length ?? 0, (index) {
                               return InkWell(

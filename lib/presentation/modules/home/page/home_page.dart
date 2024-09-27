@@ -79,7 +79,11 @@ class _HomePageState extends State<HomePage> {
               ),
               icon: const Icon(Icons.home),
               label: 'Home'),
-          const BottomNavigationBarItem(
+          BottomNavigationBarItem(
+              activeIcon: Icon(
+                Icons.search,
+                color: ColorManager.primary,
+              ),
               icon: Icon(Icons.search), label: 'Search'),
         ],
       ),
