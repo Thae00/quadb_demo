@@ -1,0 +1,3 @@
+class MethodUtils {
+  MethodUtils._();
+}
